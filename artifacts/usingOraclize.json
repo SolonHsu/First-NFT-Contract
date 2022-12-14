@@ -1,0 +1,196 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "608060405234801561001057600080fd5b506101f9806100206000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806327dc297e1461005157806338bbfa50146100c8575b600080fd5b34801561005d57600080fd5b506100c66004803603810190808035600019169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290505050610185565b005b3480156100d457600080fd5b506101836004803603810190808035600019169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f01602080910402602001604051908101604052809392919081815260200183838082843782019150505050505091929192905050506101c8565b005b6101c4828260006040519080825280601f01601f1916602001820160405280156101be5781602001602082028038833980820191505090505b506101c8565b5050565b5050505600a165627a7a72305820e383c18bcfd3423b6d84a40532ffb50ad28afb218ffd5dfaae5a94a93d439b570029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x1F9 DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x4C JUMPI PUSH1 0x0 CALLDATALOAD PUSH29 0x100000000000000000000000000000000000000000000000000000000 SWAP1 DIV PUSH4 0xFFFFFFFF AND DUP1 PUSH4 0x27DC297E EQ PUSH2 0x51 JUMPI DUP1 PUSH4 0x38BBFA50 EQ PUSH2 0xC8 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x5D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xC6 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH1 0x0 NOT AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP3 ADD DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP4 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP4 DUP4 DUP1 DUP3 DUP5 CALLDATACOPY DUP3 ADD SWAP2 POP POP POP POP POP POP SWAP2 SWAP3 SWAP2 SWAP3 SWAP1 POP POP POP PUSH2 0x185 JUMP JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xD4 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x183 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH1 0x0 NOT AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP3 ADD DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP4 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP4 DUP4 DUP1 DUP3 DUP5 CALLDATACOPY DUP3 ADD SWAP2 POP POP POP POP POP POP SWAP2 SWAP3 SWAP2 SWAP3 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP3 ADD DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP4 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP4 DUP4 DUP1 DUP3 DUP5 CALLDATACOPY DUP3 ADD SWAP2 POP POP POP POP POP POP SWAP2 SWAP3 SWAP2 SWAP3 SWAP1 POP POP POP PUSH2 0x1C8 JUMP JUMPDEST STOP JUMPDEST PUSH2 0x1C4 DUP3 DUP3 PUSH1 0x0 PUSH1 0x40 MLOAD SWAP1 DUP1 DUP3 MSTORE DUP1 PUSH1 0x1F ADD PUSH1 0x1F NOT AND PUSH1 0x20 ADD DUP3 ADD PUSH1 0x40 MSTORE DUP1 ISZERO PUSH2 0x1BE JUMPI DUP2 PUSH1 0x20 ADD PUSH1 0x20 DUP3 MUL DUP1 CODESIZE DUP4 CODECOPY DUP1 DUP3 ADD SWAP2 POP POP SWAP1 POP JUMPDEST POP PUSH2 0x1C8 JUMP JUMPDEST POP POP JUMP JUMPDEST POP POP POP JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 0xe3 DUP4 0xc1 DUP12 0xcf 0xd3 TIMESTAMP EXTCODESIZE PUSH14 0x84A40532FFB50AD28AFB218FFD5D STATICCALL 0xae GAS SWAP5 0xa9 RETURNDATASIZE NUMBER SWAP12 JUMPI STOP 0x29 ",
+			"sourceMap": "10848:42751:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;10848:42751:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806327dc297e1461005157806338bbfa50146100c8575b600080fd5b34801561005d57600080fd5b506100c66004803603810190808035600019169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290505050610185565b005b3480156100d457600080fd5b506101836004803603810190808035600019169060200190929190803590602001908201803590602001908080601f0160208091040260200160405190810160405280939291908181526020018383808284378201915050505050509192919290803590602001908201803590602001908080601f01602080910402602001604051908101604052809392919081815260200183838082843782019150505050505091929192905050506101c8565b005b6101c4828260006040519080825280601f01601f1916602001820160405280156101be5781602001602082028038833980820191505090505b506101c8565b5050565b5050505600a165627a7a72305820e383c18bcfd3423b6d84a40532ffb50ad28afb218ffd5dfaae5a94a93d439b570029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH2 0x4C JUMPI PUSH1 0x0 CALLDATALOAD PUSH29 0x100000000000000000000000000000000000000000000000000000000 SWAP1 DIV PUSH4 0xFFFFFFFF AND DUP1 PUSH4 0x27DC297E EQ PUSH2 0x51 JUMPI DUP1 PUSH4 0x38BBFA50 EQ PUSH2 0xC8 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0x5D JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0xC6 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH1 0x0 NOT AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP3 ADD DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP4 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP4 DUP4 DUP1 DUP3 DUP5 CALLDATACOPY DUP3 ADD SWAP2 POP POP POP POP POP POP SWAP2 SWAP3 SWAP2 SWAP3 SWAP1 POP POP POP PUSH2 0x185 JUMP JUMPDEST STOP JUMPDEST CALLVALUE DUP1 ISZERO PUSH2 0xD4 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x183 PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD PUSH1 0x0 NOT AND SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP3 ADD DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP4 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP4 DUP4 DUP1 DUP3 DUP5 CALLDATACOPY DUP3 ADD SWAP2 POP POP POP POP POP POP SWAP2 SWAP3 SWAP2 SWAP3 SWAP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP3 ADD DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 DUP1 DUP1 PUSH1 0x1F ADD PUSH1 0x20 DUP1 SWAP2 DIV MUL PUSH1 0x20 ADD PUSH1 0x40 MLOAD SWAP1 DUP2 ADD PUSH1 0x40 MSTORE DUP1 SWAP4 SWAP3 SWAP2 SWAP1 DUP2 DUP2 MSTORE PUSH1 0x20 ADD DUP4 DUP4 DUP1 DUP3 DUP5 CALLDATACOPY DUP3 ADD SWAP2 POP POP POP POP POP POP SWAP2 SWAP3 SWAP2 SWAP3 SWAP1 POP POP POP PUSH2 0x1C8 JUMP JUMPDEST STOP JUMPDEST PUSH2 0x1C4 DUP3 DUP3 PUSH1 0x0 PUSH1 0x40 MLOAD SWAP1 DUP1 DUP3 MSTORE DUP1 PUSH1 0x1F ADD PUSH1 0x1F NOT AND PUSH1 0x20 ADD DUP3 ADD PUSH1 0x40 MSTORE DUP1 ISZERO PUSH2 0x1BE JUMPI DUP2 PUSH1 0x20 ADD PUSH1 0x20 DUP3 MUL DUP1 CODESIZE DUP4 CODECOPY DUP1 DUP3 ADD SWAP2 POP POP SWAP1 POP JUMPDEST POP PUSH2 0x1C8 JUMP JUMPDEST POP POP JUMP JUMPDEST POP POP POP JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 0xe3 DUP4 0xc1 DUP12 0xcf 0xd3 TIMESTAMP EXTCODESIZE PUSH14 0x84A40532FFB50AD28AFB218FFD5D STATICCALL 0xae GAS SWAP5 0xa9 RETURNDATASIZE NUMBER SWAP12 JUMPI STOP 0x29 ",
+			"sourceMap": "10848:42751:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;14013:106;;8:9:-1;5:2;;;30:1;27;20:12;5:2;14013:106:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;14125:70;;8:9:-1;5:2;;;30:1;27;20:12;5:2;14125:70:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;14013:106;14073:38;14084:4;14090:6;14108:1;14098:12;;;;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;14098:12:0;;;;14073:10;:38::i;:::-;14013:106;;:::o;14125:70::-;;;;:::o"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "101000",
+				"executionCost": "147",
+				"totalCost": "101147"
+			},
+			"external": {
+				"__callback(bytes32,string)": "infinite",
+				"__callback(bytes32,string,bytes)": "infinite"
+			},
+			"internal": {
+				"ba2cbor(bytes memory[] memory)": "infinite",
+				"copyBytes(bytes memory,uint256,uint256,bytes memory,uint256)": "infinite",
+				"ecrecovery(bytes32,bytes memory)": "infinite",
+				"getCodeSize(address)": "infinite",
+				"indexOf(string memory,string memory)": "infinite",
+				"matchBytes32Prefix(bytes32,bytes memory,uint256)": "infinite",
+				"oraclize_cbAddress()": "infinite",
+				"oraclize_getNetworkName()": "infinite",
+				"oraclize_getPrice(string memory)": "infinite",
+				"oraclize_getPrice(string memory,uint256)": "infinite",
+				"oraclize_newRandomDSQuery(uint256,uint256,uint256)": "infinite",
+				"oraclize_query(string memory,bytes memory[1] memory)": "infinite",
+				"oraclize_query(string memory,bytes memory[1] memory,uint256)": "infinite",
+				"oraclize_query(string memory,bytes memory[2] memory)": "infinite",
+				"oraclize_query(string memory,bytes memory[2] memory,uint256)": "infinite",
+				"oraclize_query(string memory,bytes memory[3] memory)": "infinite",
+				"oraclize_query(string memory,bytes memory[3] memory,uint256)": "infinite",
+				"oraclize_query(string memory,bytes memory[4] memory)": "infinite",
+				"oraclize_query(string memory,bytes memory[4] memory,uint256)": "infinite",
+				"oraclize_query(string memory,bytes memory[5] memory)": "infinite",
+				"oraclize_query(string memory,bytes memory[5] memory,uint256)": "infinite",
+				"oraclize_query(string memory,bytes memory[] memory)": "infinite",
+				"oraclize_query(string memory,bytes memory[] memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory)": "infinite",
+				"oraclize_query(string memory,string memory,string memory)": "infinite",
+				"oraclize_query(string memory,string memory,string memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory[1] memory)": "infinite",
+				"oraclize_query(string memory,string memory[1] memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory[2] memory)": "infinite",
+				"oraclize_query(string memory,string memory[2] memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory[3] memory)": "infinite",
+				"oraclize_query(string memory,string memory[3] memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory[4] memory)": "infinite",
+				"oraclize_query(string memory,string memory[4] memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory[5] memory)": "infinite",
+				"oraclize_query(string memory,string memory[5] memory,uint256)": "infinite",
+				"oraclize_query(string memory,string memory[] memory)": "infinite",
+				"oraclize_query(string memory,string memory[] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[1] memory)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[1] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[2] memory)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[2] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[3] memory)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[3] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[4] memory)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[4] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[5] memory)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[5] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[] memory)": "infinite",
+				"oraclize_query(uint256,string memory,bytes memory[] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory,string memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory,string memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[1] memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[1] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[2] memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[2] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[3] memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[3] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[4] memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[4] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[5] memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[5] memory,uint256)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[] memory)": "infinite",
+				"oraclize_query(uint256,string memory,string memory[] memory,uint256)": "infinite",
+				"oraclize_randomDS_getSessionPubKeyHash()": "infinite",
+				"oraclize_randomDS_proofVerify__main(bytes memory,bytes32,bytes memory,string memory)": "infinite",
+				"oraclize_randomDS_proofVerify__returnCode(bytes32,string memory,bytes memory)": "infinite",
+				"oraclize_randomDS_proofVerify__sessionKeyValidity(bytes memory,uint256)": "infinite",
+				"oraclize_randomDS_setCommitment(bytes32,bytes32)": "infinite",
+				"oraclize_setConfig(bytes32)": "infinite",
+				"oraclize_setCustomGasPrice(uint256)": "infinite",
+				"oraclize_setNetwork(uint8)": "infinite",
+				"oraclize_setNetworkName(string memory)": "infinite",
+				"oraclize_setProof(bytes1)": "infinite",
+				"oraclize_useCoupon(string memory)": "infinite",
+				"parseAddr(string memory)": "infinite",
+				"parseInt(string memory)": "infinite",
+				"parseInt(string memory,uint256)": "infinite",
+				"safeMemoryCleaner()": "infinite",
+				"safer_ecrecover(bytes32,uint8,bytes32,bytes32)": "infinite",
+				"strCompare(string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory,string memory,string memory)": "infinite",
+				"strConcat(string memory,string memory,string memory,string memory,string memory)": "infinite",
+				"stra2cbor(string memory[] memory)": "infinite",
+				"uint2str(uint256)": "infinite",
+				"verifySig(bytes32,bytes memory,bytes memory)": "infinite"
+			}
+		},
+		"methodIdentifiers": {
+			"__callback(bytes32,string)": "27dc297e",
+			"__callback(bytes32,string,bytes)": "38bbfa50"
+		}
+	},
+	"abi": [
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"name": "myid",
+					"type": "bytes32"
+				},
+				{
+					"name": "result",
+					"type": "string"
+				}
+			],
+			"name": "__callback",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"name": "myid",
+					"type": "bytes32"
+				},
+				{
+					"name": "result",
+					"type": "string"
+				},
+				{
+					"name": "proof",
+					"type": "bytes"
+				}
+			],
+			"name": "__callback",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

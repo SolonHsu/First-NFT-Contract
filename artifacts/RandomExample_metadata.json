@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewProvableQuery",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "randomNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "generatedRandomNumber",
+				"type": "event"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_queryId",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_proof",
+						"type": "bytes"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "update",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"__callback(bytes32,string)": {
+					"details": "The following `__callback` functions are just placeholders ideally     meant to be defined in child contract when proofs are used.     The function bodies simply silence compiler warnings."
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "RandomExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github.com/provable-things/ethereum-api/provableAPI_0.5.sol": {
+			"keccak256": "0x194e0f6f1b2cf2eca7204430e81ebd6cc6ca449350b04ffcc9bb17c24a8094fc",
+			"urls": [
+				"bzz-raw://afbe8ed8f8729fc3622144a244e9f64e0fb91084828ab68e9508aa0babe44e6e",
+				"dweb:/ipfs/QmTBzJ6hvap4Ark27NGPU4HyY9F6tTcR5PxMkMvQRxzeLu"
+			]
+		},
+		"test.sol": {
+			"keccak256": "0x80e522ba6a63d0810e86b7002f7f58d3c756e71363df8a2853c0968c3094bba7",
+			"urls": [
+				"bzz-raw://e436d6bfef5c7adf8185a48ed24352a46d7fe2a9fec0a271f3b24b1be73cc58d",
+				"dweb:/ipfs/QmWGPTz1CSkWao3qxKTPp2vxHQL3Y55XXBBSWgUmPgUwow"
+			]
+		}
+	},
+	"version": 1
+}

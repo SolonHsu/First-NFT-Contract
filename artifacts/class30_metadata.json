@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "random",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"30.sol": "class30"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"30.sol": {
+			"keccak256": "0xba6e2f01efc0f15242342c58082bfef29b6e57cca5abc62f33a92238ab8dc491",
+			"urls": [
+				"bzzr://b0d781e08a8e8e76a5838b44f2abc5d55ec3e010f13df8c6a42d14f4827cff11"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "myid",
+						"type": "bytes32"
+					},
+					{
+						"name": "result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "myid",
+						"type": "bytes32"
+					},
+					{
+						"name": "result",
+						"type": "string"
+					},
+					{
+						"name": "proof",
+						"type": "bytes"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"oraclizeAPI_0.4.sol": "usingOraclize"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"oraclizeAPI_0.4.sol": {
+			"keccak256": "0x06feae9c428059c793c9f5e2aa82886c49db5ac94d189d40ac3fce5918a6bfde",
+			"urls": [
+				"bzzr://0cf28f3daa827f9d577f40f883567dcd8243ddd5bc297af3fcc5d60ddc2fc968"
+			]
+		}
+	},
+	"version": 1
+}

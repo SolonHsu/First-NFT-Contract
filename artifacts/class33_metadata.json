@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "i",
+						"type": "uint256"
+					},
+					{
+						"name": "n",
+						"type": "string"
+					}
+				],
+				"name": "example1",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "i",
+						"type": "uint256"
+					},
+					{
+						"name": "n",
+						"type": "string"
+					}
+				],
+				"name": "example2",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fruitarray",
+				"outputs": [
+					{
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"33.sol": "class33"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"33.sol": {
+			"keccak256": "0x7cec86b014c9684a949f2bc3a30ff58c28ead68bbd5846caa933ae1da53d773f",
+			"urls": [
+				"bzzr://f6d3f00bd791cb19023486443adc00a07686dba02cc4913ed344bb1d7f914672"
+			]
+		}
+	},
+	"version": 1
+}
